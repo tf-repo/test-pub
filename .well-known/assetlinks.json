@@ -1,14 +1,9 @@
-{ "name"   : "John Smith",
-  "sku"    : "20223",
-  "price"  : 23.95,
-  "shipTo" : { "name" : "Jane Smith",
-               "address" : "123 Maple Street",
-               "city" : "Pretendville",
-               "state" : "NY",
-               "zip"   : "12345" },
-  "billTo" : { "name" : "John Smith",
-               "address" : "123 Maple Street",
-               "city" : "Pretendville",
-               "state" : "NY",
-               "zip"   : "12345" }
-}
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "es.rickyepoderi.keycloaksample",
+    "sha256_cert_fingerprints":
+    ["06:A8:F0:9C:03:74:9B:BD:1D:32:3B:AD:8D:E5:D5:69:4B:00:E9:F5:FE:98:B3:29:C0:84:64:6C:47:E7:63:68"]
+  }
+}]
